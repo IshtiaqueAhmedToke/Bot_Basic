@@ -112,9 +112,9 @@ if (Serial.available() > 0) {
   analogWrite(L_PWM_FOR_TWO,0);
   };
   
-   void stop(){
+   void stopo(){
   analogWrite(R_PWM_FOR_ONE,0);
   analogWrite(L_PWM_FOR_ONE,0);
   analogWrite(R_PWM_FOR_TWO,0);
   analogWrite(L_PWM_FOR_TWO,0);
-  }:
+  };
